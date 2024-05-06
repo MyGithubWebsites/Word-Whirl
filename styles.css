@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #e78adf; /* Change to blue color */
+ 
+      
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 44px;
+  }
+  
+  #jumbled-word {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #ce1212;
+  }
+  
+  #guess-input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  #submit-btn, #next-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-btn:hover, #next-btn:hover {
+    background-color: #0056b3;
+  }
+  
